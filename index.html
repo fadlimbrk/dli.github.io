@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Porto</title>
+    <meta
+      name="description"
+      content="Portofolio Nama Kamu, web developer yang membuat situs dan aplikasi yang enak dipakai."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Figtree:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header wrap">
+      <a class="logo" href="#top" aria-label="">Porto Folio.</a>
+      <nav aria-label="Menu utama">
+        <ul class="nav-list">
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#tentang">About</a></li>
+          <li><a href="#kontak">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero wrap">
+        <div class="hero-text">
+          <h1>Halo, I'm Muhammad Fadlil Mubarak.</h1>
+          <p class="lead">
+            Web developer in Indonesia. I like learning front end and a little
+            like the backend.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyek">view project</a>
+            <button
+              class="btn btn-ghost"
+              type="button"
+              data-copy-email="mubarokf215@gmail.com"
+            >
+              Buat salin email
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div class="board" id="board">
+            <img src="Foto.jpg" alt="Foto Muhammad Fadlil Mubarak" />
+          </div>
+        </div>
+      </section>
+
+      <!-- PROYEK -->
+      <section class="section wrap" id="proyek" aria-labelledby="judul-proyek">
+        <h2 id="judul-proyek">New project</h2>
+        <p class="section-intro">proyek buatan</p>
+
+        <div class="projects">
+          <article
+            class="card card--wide"
+            style="--bg: var(--yellow); --thumb: var(--blue)"
+          >
+            <div class="thumb thumb--dots" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Warung Malas</h3>
+              <p>
+                Aplikasi untuk memesan gorengan dan minuman untuk mempermudah
+                para konsumen untuk memesan.
+              </p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <div class="card-links">
+                <a href="#">Lihat demo</a>
+                <a href="#">Kode di GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" style="--bg: var(--mint); --thumb: var(--pink)">
+            <div class="thumb thumb--stripes" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Catatan Ngopi</h3>
+              <p>
+                Jurnal kopi harian: biji, seduhan, dan rasa. Ada grafik biar
+                tahu selera sendiri.
+              </p>
+              <ul class="tags">
+                <li>Next.js</li>
+                <li>TypeScript</li>
+              </ul>
+              <div class="card-links">
+                <a href="#">Lihat demo</a>
+                <a href="#">Kode di GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="card"
+            style="--bg: var(--lilac); --thumb: var(--yellow)"
+          >
+            <div class="thumb thumb--grid" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Jadwal Kelas</h3>
+              <p>
+                Kalender kuliah yang otomatis mengingatkan tugas yang mau jatuh
+                tempo.
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>Firebase</li>
+              </ul>
+              <div class="card-links">
+                <a href="#">Lihat demo</a>
+                <a href="#">Kode di GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="card card--wide"
+            style="--bg: var(--pink); --thumb: var(--mint)"
+          >
+            <div class="thumb thumb--checks" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Ongkir Cepat</h3>
+              <p>
+                Kalkulator ongkos kirim yang membandingkan beberapa kurir dalam
+                satu layar, lengkap dengan API-nya.
+              </p>
+              <ul class="tags">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>REST API</li>
+              </ul>
+              <div class="card-links">
+                <a href="#">Lihat demo</a>
+                <a href="#">Kode di GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- TENTANG -->
+      <section
+        class="section wrap"
+        id="tentang"
+        aria-labelledby="judul-tentang"
+      >
+        <div class="about">
+          <div>
+            <h2 id="judul-tentang">a little about me</h2>
+            <p>
+              I'm a web developer who started coding out of curiosity about how
+              a button could make something happen. Now I build websites and
+              apps from design to release, with a special focus on speed and
+              usability.
+            </p>
+            <p>
+              Outside of coding, I love coffee, badminton, and learning more
+              about coding.
+            </p>
+            <ul class="chips" aria-label="Skill utama">
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Git</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+
+          <div class="timeline-card">
+            <h3>Timeline</h3>
+            <ol class="timeline">
+              <li>
+                <span class="when">2023 present</span>
+                <strong>Freelance Web Developer</strong>
+                <span
+                  >Building websites and applications for small businesses
+                  (SMBs) and startups.</span
+                >
+              </li>
+              <li>
+                <span class="when">2024</span>
+                <strong>Frontend Development Intern</strong>
+                <span
+                  >Building UI components and improving page performance.</span
+                >
+              </li>
+              <li>
+                <span class="when">2025-2026</span>
+                <strong
+                  >Administrative Staff Sentra Medika Hospital Cikarang</strong
+                >
+                <span
+                  >Worked as an Administrative Staff member, focusing on patient
+                  services, medical data management, and maintaining accurate
+                  patient records. Responsible for handling patient
+                  registration, managing data input and output through the
+                  hospital's information system, and supporting daily
+                  administrative operations.</span
+                >
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONTAK -->
+      <section class="section wrap" id="kontak" aria-labelledby="judul-kontak">
+        <div class="contact">
+          <h2 id="judul-kontak">Punya ide? Ayo ngobrol.</h2>
+          <p>
+            Open to Work Currently open to freelance projects and full-time
+            opportunities. Feel free to reach out via email. I'll do my best to
+            respond within 24 hours.
+          </p>
+          <div class="hero-actions">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-copy-email="mubarokf215@gmail.com"
+            >
+              Salin email
+            </button>
+            <a
+              class="btn btn-ghost"
+              href="https://github.com/fadlimbrk"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a
+              class="btn btn-ghost"
+              href="https://www.linkedin.com/"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+          <p class="email-line">mubarokf215@gmail.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>
+        &copy; <span id="year">2026</span> Nama Kamu. Dibuat dengan HTML, CSS,
+        dan sedikit JavaScript.
+      </p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
